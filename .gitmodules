@@ -1,4 +1,4 @@
-[submodule "WiringPi"]
-    path = WiringPi
-    url = https://github.com/WiringPi/WiringPi.git
 
+[submodule "WiringPi"]
+	path = WiringPi
+	url = https://github.com/yeacreate-opensources/wiringNT

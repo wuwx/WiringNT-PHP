@@ -4,7 +4,7 @@ BUILD_DIR = build
 INCDIR = WiringPi/wiringPi/
 LIB = wiringpi
 
-CFLAGS = -c -fpic `php-config --includes` -I${INCDIR}
+CFLAGS = -c -fpic `php-config --includes` -I${INCDIR} -DYC_NTABLET
 
 SOURCES = wiringpi_wrap.c $(wildcard WiringPi/devLib/*.c) $(wildcard WiringPi/wiringPi/*c)
 
